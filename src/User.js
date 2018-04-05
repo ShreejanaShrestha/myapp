@@ -14,7 +14,7 @@ class User extends Component{
 				This is {this.state.fullName}.
 				</h1>
 				<p>{this.state.username}</p>
-				<input name='username' type='text' value={this.state.username} onChange={(event)=> this.handleChange(event)}
+				<input name='username' type='text' value={this.state.username} onChange={(event) => this.handleChange(event)}
 				 />
 				</div>
 
